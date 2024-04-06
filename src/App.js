@@ -1,9 +1,11 @@
-
+import {ToastContainer} from "react-toastify"
 
 function App() {
+
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Let's get started!!</h1>
+    <div className="app">
+       <ToastContainer position="top-center" pauseOnFocusLoss={false} />
+      <h1 className="text-3xl font-bold underline">G.O.A.T</h1>
     </div>
   );
 }
